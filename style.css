@@ -22,6 +22,10 @@ body{
     background: #352f5b;
 }
 
+input[type="checkbox"]:checked + label{
+    text-decoration: line-through;
+}
+
 .filtered{
     display: none !important;
 }
